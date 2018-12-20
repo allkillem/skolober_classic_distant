@@ -24,6 +24,14 @@ a {
   color: #54516f;
 }
 
+#header .header-nav .blockcart {
+  background-color: #ff7900;
+}
+
+#header .header-nav .cart-preview .shopping-cart {
+  color: #54516f;
+}
+
 #header .search_bar {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -99,6 +107,10 @@ a {
 /** MAIN **/
 #wrapper {
   padding-top: 0rem;
+}
+
+#content-wrapper {
+  padding-top: 20px;
 }
 
 /** FOOTER **/
