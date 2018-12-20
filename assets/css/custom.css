@@ -1,5 +1,49 @@
-/*
- * Custom code goes here.
- * A template should always ship with an empty custom.css
- */
- #header{ background: red !important; }
+@charset "UTF-8";
+/** Pour le thème skolober_classic **/
+a {
+  color: green;
+}
+
+/** HEADER **/
+#header a {
+  color: #54516f;
+}
+
+#header a:hover {
+  color: black;
+}
+
+#header .header-nav {
+  background-color: #ff7900;
+  color: #54516f;
+}
+
+#header .header-nav a {
+  color: #54516f;
+}
+
+#header .header-top {
+  color: #54516f;
+}
+
+#header .header-top a[data-depth="0"] {
+  color: #54516f;
+}
+
+#header .header-top a[data-depth="0"]:hover {
+  color: black;
+}
+
+/** FOOTER **/
+#footer .footer-container {
+  background-color: #54516f;
+  color: white;
+}
+
+#footer .footer-container a, #footer .footer-container p, #footer .footer-container .block-contact {
+  color: white;
+}
+
+#footer .footer-container .h1, #footer .footer-container .h2, #footer .footer-container .h3, #footer .footer-container .h4, #footer .footer-container a.text-uppercase {
+  color: orange;
+}
