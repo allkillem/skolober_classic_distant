@@ -14,13 +14,20 @@ a {
 }
 
 #header .header-nav {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   background-color: #ff7900;
   color: #54516f;
+  border-bottom: 0;
 }
 
 #header .header-nav a {
   color: #54516f;
+}
+
+#header .search_bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #54516f;
 }
 
 #header .header-top {
@@ -49,7 +56,6 @@ a {
 #header .header-top .menu {
   margin-bottom: 0rem;
   height: 52px;
-  background-color: yellow;
 }
 
 #header .header-top ul#top-menu {
@@ -62,8 +68,13 @@ a {
 }
 
 #header .header-top ul#top-menu li a {
-  line-height: 50%;
-  padding-top: 20px;
+  line-height: 50px;
+}
+
+#header .header-top ul#top-menu li a:hover {
+  background-color: #54516f;
+  color: #ff7900;
+  height: 50px;
 }
 
 #header #_desktop_logo {
@@ -77,8 +88,12 @@ a {
   height: 52 px !important;
 }
 
-#header .search_bar {
-  margin-bottom: 10px;
+.search-widget {
+  width: 100%;
+}
+
+.search-widget input {
+  width: 100%;
 }
 
 /** FOOTER **/
