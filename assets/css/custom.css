@@ -96,6 +96,11 @@ a {
   width: 100%;
 }
 
+/** MAIN **/
+#wrapper {
+  padding-top: 0rem;
+}
+
 /** FOOTER **/
 #footer .footer-container {
   background-color: #54516f;
