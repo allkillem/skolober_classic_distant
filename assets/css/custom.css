@@ -34,6 +34,14 @@ a {
   color: black;
 }
 
+#header #desktop-logo {
+  width: 10px;
+}
+
+#header .logo {
+  max-width: 100px;
+}
+
 /** FOOTER **/
 #footer .footer-container {
   background-color: #54516f;
