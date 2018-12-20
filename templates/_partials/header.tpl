@@ -54,11 +54,23 @@
   </nav>
 {/block}
 
+{block name='search_bar'}
+  <div class="search_bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1 hidden-sm-down placeholder"></div>
+          <div class="col-md-10 col-sm-12 searchbar">{hook h='displaySearch'}</div>
+        <div class="col-md-1 hidden-sm-down placeholder"></div>
+      </div>
+    </div>
+  </div>
+{/block}
+
 {block name='header_top'}
-  <div class="header-top roudoudou">
+  <div class="header-top">
     <div class="container">
        <div class="row">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+        <div class="col-md-1 hidden-sm-down" id="_desktop_logo">
             {if $page.page_name == 'index'}
               <h1>
                 <a href="{$urls.base_url}">
@@ -71,7 +83,7 @@
                 </a>
             {/if}
         </div>
-        <div class="col-md-10 col-sm-12 position-static">
+        <div class="col-md-11 col-sm-12 position-static">
           {hook h='displayTop'}
           <div class="clearfix"></div>
         </div>

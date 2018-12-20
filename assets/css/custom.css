@@ -14,6 +14,7 @@ a {
 }
 
 #header .header-nav {
+  margin-bottom: 10px;
   background-color: #ff7900;
   color: #54516f;
 }
@@ -32,6 +33,10 @@ a {
 
 #header .header-top a[data-depth="0"]:hover {
   color: black;
+}
+
+#header .search_bar {
+  margin-bottom: 10px;
 }
 
 #header #desktop-logo {
