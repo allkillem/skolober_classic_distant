@@ -1,0 +1,6 @@
+parent: classic
+name: skolober_classic
+display_name: Modification du thème classique pour Skol Ober
+version: 1.0.0
+assets:
+  use_parent_assets: true
