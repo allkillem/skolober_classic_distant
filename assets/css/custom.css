@@ -25,6 +25,8 @@ a {
 
 #header .header-top {
   color: #54516f;
+  padding-bottom: 0rem;
+  height: 52px;
 }
 
 #header .header-top a[data-depth="0"] {
@@ -35,16 +37,48 @@ a {
   color: black;
 }
 
-#header .search_bar {
-  margin-bottom: 10px;
+#header .header-top .container {
+  box-sizing: border-box;
+  height: 52 px;
 }
 
-#header #desktop-logo {
-  width: 10px;
+#header .header-top .row {
+  height: 52px;
+}
+
+#header .header-top .menu {
+  margin-bottom: 0rem;
+  height: 52px;
+  background-color: yellow;
+}
+
+#header .header-top ul#top-menu {
+  height: 52 px;
+  margin-bottom: 0rem;
+}
+
+#header .header-top ul#top-menu li, #header .header-top ul#top-menu li a {
+  height: 100%;
+}
+
+#header .header-top ul#top-menu li a {
+  line-height: 50%;
+  padding-top: 20px;
+}
+
+#header #_desktop_logo {
+  height: 52px;
+  padding-top: 1 px;
+  padding-bottom: 1px;
 }
 
 #header .logo {
-  max-width: 100px;
+  max-width: 52 px;
+  height: 52 px !important;
+}
+
+#header .search_bar {
+  margin-bottom: 10px;
 }
 
 /** FOOTER **/
