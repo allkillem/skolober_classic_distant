@@ -1,4 +1,4 @@
-class CarrouselTheme extends Carrousel {
+class ps_imagesliderTheme extends ps_imageslider {
     public function install() {
         if (!parent::install())
             return false;
@@ -11,8 +11,6 @@ class CarrouselTheme extends Carrousel {
     // notre fonction qui va afficher le contenu de notre hook
     public function hookmonHookCarrousel($params) {
         // mettez ici votre propre code ou appeler comme ici le hook de base du module
-        return parent::displayNav2($params);
+        
     }
 }
-
-/** ps_imageslider

@@ -24,8 +24,6 @@
  *}
 {extends file='page.tpl'}
 
-[hook h='monHookCarrousel']
-
     {block name='page_content_container'}
       <section id="content" class="page-home">
         {block name='page_content_top'}{/block}

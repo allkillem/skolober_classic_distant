@@ -88,8 +88,8 @@
 }
 
 #header .logo {
-  max-width: 52 px;
-  height: 52 px !important;
+  max-width: 52px;
+  height: 52px !important;
 }
 
 .search-widget {
@@ -110,15 +110,24 @@
 }
 
 /** FOOTER **/
-#footer .footer-container {
+#footer {
   background-color: #54516f;
   color: white;
+  box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.3);
 }
 
-#footer .footer-container a, #footer .footer-container p, #footer .footer-container .block-contact {
+#footer a, #footer p, #footer .block-contact {
   color: white;
 }
 
-#footer .footer-container .h1, #footer .footer-container .h2, #footer .footer-container .h3, #footer .footer-container .h4, #footer .footer-container a.text-uppercase {
+#footer img.logo_footer {
+  width: 100px;
+}
+
+#footer .h1, #footer .h2, #footer .h3, #footer .h4, #footer a.text-uppercase {
   color: orange;
+}
+
+#footer .footer-container {
+  box-shadow: none;
 }

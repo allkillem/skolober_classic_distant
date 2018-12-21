@@ -22,33 +22,13 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="container">
-  <div class="row">
-    {block name='hook_footer_before'}
-      {hook h='displayFooterBefore'}
-    {/block}
+
+{block name='block_social'}
+  <div class="block-social col-lg-4 col-md-12 col-sm-12">
+    <ul>
+      {foreach from=$social_links item='social_link'}
+        <li class="{$social_link.class}"><a href="{$social_link.url}" target="_blank">{$social_link.label}</a></li>
+      {/foreach}
+    </ul>
   </div>
-</div>
-<div class="footer-container">
-  <div class="container">
-    <div class="row">
-      {block name='hook_footer'}
-        {hook h='displayFooter'}
-      {/block}
-    </div>
-    <div class="row">
-      {block name='hook_footer_after'}
-        {hook h='displayFooterAfter'}
-      {/block}
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <p class="text-sm-center">
-          {block name='copyright_link'}
-          <img class="logo_footer img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-          {/block}
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+{/block}
