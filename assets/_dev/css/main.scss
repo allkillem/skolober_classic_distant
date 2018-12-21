@@ -1,0 +1,82 @@
+/** Pour le thème skolober_classic **/
+@import 'couleurs';
+@import 'mixins';
+
+/** HEADER **/
+
+#header {
+a{color:$mauve;}
+a:hover{color:black;}
+
+ .header-nav {
+  margin-bottom:0px;
+  background-color: $orange;
+  color:$mauve;
+  border-bottom:0;
+  a {color:$mauve;}
+  .blockcart {background-color: $orange;}
+  .cart-preview .shopping-cart {color:$mauve;}
+}
+
+  .search_bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:$mauve;
+  }
+
+  .header-top {
+  color:$mauve;
+  padding-bottom:0rem;
+  height: 52px;
+    a[data-depth="0"] {color:$mauve;}
+    a[data-depth="0"]:hover {color:black;}
+
+    .container {
+      box-sizing:border-box;
+      height:52 px;}
+
+    .row {height:52px    }
+
+    .menu {
+      margin-bottom:0rem;
+      height:52px;
+      }
+
+    ul#top-menu {height:52 px;
+    margin-bottom:0rem;
+      li, li a {height: 100%;}
+      li a {line-height:50px;}
+      li a:hover {background-color:$mauve;color:$orange;height:50px;}
+    }
+
+}
+
+#_desktop_logo {height:52px; padding-top:1 px; padding-bottom: 1px;}
+
+.logo {max-width:52 px;
+height: 52 px!important;}
+
+}
+
+.search-widget {width:100%;
+  input {width:100%}
+  }
+
+#desktop_cart {
+
+}
+
+/** MAIN **/
+
+#wrapper {padding-top:0rem;}
+#content-wrapper {padding-top: 20px;}
+
+
+/** FOOTER **/
+
+#footer .footer-container {
+  background-color: $mauve;
+  color:white;
+  a,p, .block-contact {color:white;}
+  .h1, .h2, .h3, .h4, a.text-uppercase {color:orange;}
+}
