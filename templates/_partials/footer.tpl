@@ -45,7 +45,7 @@
       <div class="col-md-12">
         <p class="text-sm-center">
           {block name='copyright_link'}
-          <img class="logo_footer img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+          <img class="logo_footer img-responsive hidden-sm-down" src="{$shop.logo}" alt="{$shop.name}">
           {/block}
         </p>
       </div>
