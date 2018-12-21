@@ -27,15 +27,15 @@ a:hover{color:black;}
   .header-top {
   color:$mauve;
   padding-bottom:0rem;
-  height: 52px;
+/**  height: 52px; **/
     a[data-depth="0"] {color:$mauve;}
     a[data-depth="0"]:hover {color:black;}
 
     .container {
       box-sizing:border-box;
-      height:52 px;}
+    /**   height:52 px; **/ }
 
-    .row {height:52px    }
+/**    .row {height:52px    } **/
 
     .menu {
       margin-bottom:0rem;

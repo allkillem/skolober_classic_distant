@@ -37,7 +37,8 @@
 #header .header-top {
   color: #54516f;
   padding-bottom: 0rem;
-  height: 52px;
+  /**  height: 52px; **/
+  /**    .row {height:52px    } **/
 }
 
 #header .header-top a[data-depth="0"] {
@@ -50,11 +51,7 @@
 
 #header .header-top .container {
   box-sizing: border-box;
-  height: 52 px;
-}
-
-#header .header-top .row {
-  height: 52px;
+  /**   height:52 px; **/
 }
 
 #header .header-top .menu {

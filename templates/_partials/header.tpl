@@ -58,9 +58,9 @@
   <div class="search_bar">
     <div class="container">
       <div class="row">
-        <div class="col-md-1 hidden-sm-down placeholder"></div>
+        <div class="col-md-1 placeholder"></div>
           <div class="col-md-10 col-sm-12 searchbar header">{hook h='displaySearch'}</div>
-        <div class="col-md-1 hidden-sm-down placeholder"></div>
+        <div class="col-md-1 placeholder"></div>
       </div>
     </div>
   </div>
