@@ -86,7 +86,13 @@ height: 52px!important;}
   input {width:100%}
   }
 
+/** BREADCRUMB **/
+#wrapper .breadcrumb , #wrapper .breadcrumb li a {
+    color: $grisclair;
+    font-size:0.8rem;
+}
 
+#wrapper .breadcrumb li a:hover {color:$grisfonce;}
 
 /** MAIN **/
 

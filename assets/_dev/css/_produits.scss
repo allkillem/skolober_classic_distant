@@ -10,6 +10,7 @@
 .tabs {background-color: $mauve;color:white;}
 
 .tabs .nav-tabs .nav-link {color:white;}
+.tabs .nav-tabs .nav-link:hover{color:$orange;}
 
 .tabs .nav-tabs .nav-link.active {color: $orange;}
 
