@@ -12,8 +12,25 @@ h1 {
   text-align: center;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, a {
   color: #ff7900;
+}
+
+a:hover {
+  color: #54516f;
+}
+
+a:focus {
+  color: #54516f;
+}
+
+a:focus:hover {
+  color: #ff7900;
+}
+
+.btn-primary {
+  background-color: #ff7900;
+  color: #54516f;
 }
 
 /** HEADER **/
@@ -126,6 +143,10 @@ h2, h3, h4, h5, h6 {
   padding-top: 20px;
 }
 
+#content-wrapper h1 {
+  color: #54516f;
+}
+
 .block-categories, #search_filters {
   background-color: #54516f;
   color: #ff7900;
@@ -141,6 +162,37 @@ h2, h3, h4, h5, h6 {
 
 .block-categories a:hover, #search_filters a:hover {
   color: white;
+}
+
+/* IMPORTS MAIN **/
+#products .product-description {
+  background-color: #ff7900;
+  color: #54516f;
+}
+
+#products .product-description a, #products .product-description h2 {
+  color: #54516f;
+}
+
+.product-price {
+  color: #ff7900;
+}
+
+.tabs {
+  background-color: #54516f;
+  color: white;
+}
+
+.tabs .nav-tabs .nav-link {
+  color: white;
+}
+
+.tabs .nav-tabs .nav-link.active {
+  color: #ff7900;
+}
+
+.tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link:hover {
+  border-bottom: 3px solid #ff7900;
 }
 
 /** FOOTER **/

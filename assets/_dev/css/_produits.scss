@@ -1,0 +1,18 @@
+#products .product-description {
+  background-color:$orange;
+  color:$mauve;
+  a, h2 {color:$mauve;}
+
+}
+
+.product-price {color:$orange;}
+
+.tabs {background-color: $mauve;color:white;}
+
+.tabs .nav-tabs .nav-link {color:white;}
+
+.tabs .nav-tabs .nav-link.active {color: $orange;}
+
+.tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link:hover {
+    border-bottom: 3px solid $orange;
+}

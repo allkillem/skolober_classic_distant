@@ -14,9 +14,16 @@ h1 {color:$mauve;
     text-align:center;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, a {
   color:$orange;
 }
+
+a:hover{color:$mauve;}
+
+a:focus{color:$mauve;}
+a:focus:hover{color:$orange;}
+
+.btn-primary {background-color: $orange; color:$mauve;}
 
 
 /** HEADER **/
@@ -80,10 +87,13 @@ height: 52px!important;}
   }
 
 
+
 /** MAIN **/
 
 #wrapper {padding-top:0rem;}
-#content-wrapper {padding-top: 20px;}
+#content-wrapper {padding-top: 20px;
+  h1 {color:$mauve;}
+}
 
 .block-categories, #search_filters {
   background-color: $mauve;
@@ -93,6 +103,8 @@ height: 52px!important;}
   a:hover{color:white;}
 }
 
+/* IMPORTS MAIN **/
+@import 'produits';
 
 
 
