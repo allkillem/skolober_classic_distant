@@ -3,6 +3,7 @@
 @import 'mixins';
 
 /** HEADER **/
+/*commit*/
 
 #header {
 a{color:$mauve;}
@@ -51,10 +52,10 @@ a:hover{color:black;}
 
 }
 
-#_desktop_logo {height:52px; padding-top:1 px; padding-bottom: 1px;}
+  #_desktop_logo {height:52px; padding-top:1 px; padding-bottom: 1px;}
 
-.logo {max-width:52 px;
-height: 52 px!important;}
+  .logo {max-width:52px;
+height: 52px!important;}
 
 }
 
@@ -74,9 +75,16 @@ height: 52 px!important;}
 
 /** FOOTER **/
 
-#footer .footer-container {
+#footer {
   background-color: $mauve;
   color:white;
+  box-shadow: 2px 2px 11px 0 rgba(0,0,0,.3);
   a,p, .block-contact {color:white;}
+  img.logo_footer {width:100px;}
+
   .h1, .h2, .h3, .h4, a.text-uppercase {color:orange;}
+  .footer-container {
+    box-shadow: none;
+}
+
 }
