@@ -1,7 +1,22 @@
 @charset "UTF-8";
 /** Pour le thème skolober_classic **/
+/** GLOBAL **/
+body, p {
+  color: #434244;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: #54516f;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #ff7900;
+}
+
 /** HEADER **/
-/*commit*/
 #header a {
   color: #54516f;
 }
@@ -38,11 +53,11 @@
 #header .header-top {
   color: #54516f;
   padding-bottom: 0rem;
-  height: 52px;
 }
 
 #header .header-top a[data-depth="0"] {
   color: #54516f;
+  font-size: 1rem;
 }
 
 #header .header-top a[data-depth="0"]:hover {
@@ -51,44 +66,45 @@
 
 #header .header-top .container {
   box-sizing: border-box;
-  height: 52 px;
 }
 
-#header .header-top .row {
-  height: 52px;
-}
-
-#header .header-top .menu {
+#header .header-top .container .menu {
   margin-bottom: 0rem;
   height: 52px;
 }
 
-#header .header-top ul#top-menu {
+#header .header-top .container ul#top-menu {
   height: 52 px;
   margin-bottom: 0rem;
 }
 
-#header .header-top ul#top-menu li, #header .header-top ul#top-menu li a {
+#header .header-top .container ul#top-menu li, #header .header-top .container ul#top-menu li a {
   height: 100%;
 }
 
-#header .header-top ul#top-menu li a {
+#header .header-top .container ul#top-menu li a {
   line-height: 50px;
 }
 
-#header .header-top ul#top-menu li a:hover {
+#header .header-top .container ul#top-menu li a:hover {
   background-color: #54516f;
   color: #ff7900;
   height: 50px;
 }
 
-#header #_desktop_logo {
-  height: 52px;
-  padding-top: 1 px;
-  padding-bottom: 1px;
+#mobile_top_menu_wrapper .top-menu a[data-depth="0"] {
+  padding: .5rem;
 }
 
-#header .logo {
+#mobile_top_menu_wrapper .top-menu a[data-depth="0"] #_desktop_logo {
+  height: 52px;
+  width: 52px;
+  padding-top: 1 px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+}
+
+#mobile_top_menu_wrapper .top-menu a[data-depth="0"] .logo {
   max-width: 52px;
   height: 52px !important;
 }
@@ -99,6 +115,19 @@
 
 .search-widget input {
   width: 100%;
+}
+
+/** BREADCRUMB **/
+#wrapper .breadcrumb {
+  color: #bebebe;
+}
+
+#wrapper .breadcrumb p, #wrapper .breadcrumb li, #wrapper .breadcrumb li a, #wrapper .breadcrumb li:after {
+  color: #bebebe;
+}
+
+#wrapper .breadcrumb a:hover {
+  color: #434244;
 }
 
 /** MAIN **/
@@ -115,6 +144,7 @@
   background-color: #54516f;
   color: white;
   box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.3);
+  padding-top: 0rem;
 }
 
 #footer a, #footer p, #footer .block-contact {
