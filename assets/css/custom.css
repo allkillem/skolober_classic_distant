@@ -191,6 +191,7 @@ a:focus:hover {
 .tabs {
   background-color: #54516f;
   color: white;
+  margin-top: 1rem;
 }
 
 .tabs .nav-tabs .nav-link {
@@ -202,7 +203,8 @@ a:focus:hover {
 }
 
 .tabs .nav-tabs .nav-link.active {
-  color: #ff7900;
+  background-color: #ff7900;
+  color: #54516f;
 }
 
 .tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link:hover {
